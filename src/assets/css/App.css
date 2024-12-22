@@ -150,7 +150,12 @@ h4 {
   margin-top: 1rem;
   font-size: 17px;
   line-height: 20.8px;
-  color: #808484;
+  color: #848080;
+}
+
+.statut {
+  margin-left: 20px;
+  color: orange;
 }
 
 section {

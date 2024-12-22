@@ -1,6 +1,4 @@
-import img from "../img/image.jpg";
-
-const Card = ({ name, description, price, img, index }) => {
+const Card = ({ name, description, price, img, popular }) => {
   return (
     <form>
       <div
@@ -16,7 +14,7 @@ const Card = ({ name, description, price, img, index }) => {
           </div>
           <div className="content-price">
             <p className="price">{price}€</p>
-            <div className="statut">⭐️ Populaire</div>
+            {popular && <div className="statut">⭐️ Populaire</div>}
           </div>
         </div>
         {!img ? null : <img src={img} />}

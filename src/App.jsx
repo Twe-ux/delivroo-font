@@ -42,7 +42,7 @@ function App() {
 
       <main>
         {data.categories.map((element, index) => {
-          console.log(element.meals[0]);
+          // console.log(element.meals[0]);
           return (
             <Section
               key={element.name + index}

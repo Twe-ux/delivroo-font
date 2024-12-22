@@ -1,6 +1,6 @@
 import Card from "../components/Card";
 
-const Section = ({ name, meals, key }) => {
+const Section = ({ name, meals }) => {
   // console.log("tab", meals);
 
   return (
@@ -16,6 +16,7 @@ const Section = ({ name, meals, key }) => {
                 name={element.title}
                 description={element.description}
                 price={element.price}
+                popular={element.popular}
                 img={element.picture}
               />
             );
